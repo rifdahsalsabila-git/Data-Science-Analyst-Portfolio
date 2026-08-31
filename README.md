@@ -2,7 +2,7 @@
 
 Hi, I'm Rifdah Salsabila! You can call me Rifdah. I'm a fresh mathemathics graduate from University of Indonesia. Currently I have serious interest in Data Analytics and Data Science. I'm also looking for any internship or entry level jobs related to data analytics/data science. This repository showcases my data science and machine learning projects, tracking my progress and skills in the field.
 
-My CV in Bahasa Indonesia : `[link ke CV kamu, misal Google Drive/PDF di repo ini]`.
+My CV in Bahasa Indonesia: [Click here](https://github.com/rifdahsalsabila-git/Data-Science-Analyst-Portfolio/blob/main/CV_Rifdah%20Salsabila.pdf)
 
 ## Table of Contents
 
