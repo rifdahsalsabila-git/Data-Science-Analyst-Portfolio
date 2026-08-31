@@ -16,7 +16,7 @@ My CV in Bahasa Indonesia: [Click here](https://github.com/rifdahsalsabila-git/D
 In this section I list my data science / machine learning projects, briefly describing the problem, approach, and results.
 
 ### Mpox Classification
-- **Code:** [`Mpox_Classification.ipynb`](https://github.com/rifdahsalsabila-n109zone/Mpox-Classification)
+- **Code:** [`Mpox_Classification.ipynb`](https://github.com/rifdahsalsabila-git/Mpox-Classification)
 - **Goal:** To classify patient into positive or negative Mpox based on clinical features and laboratory data.
 - **Skills:** data cleaning, exploratory data analysis, feature selection, ensemble modeling, model evaluation.
 - **Library:** Python, Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib, Graphviz.
@@ -24,7 +24,7 @@ In this section I list my data science / machine learning projects, briefly desc
 - **Results:** The model achieved an average test accuracy of 98.3% and recall of 99.4% across 3 random seeds. Platelet count emerged as the dominant predictive feature (67% importance), followed by ALT level and sore throat symptoms. Notable finding: although training accuracy reached 100%, the test accuracy doesn't fall off way too far from train accuracy, meaning the model doesn't overfit/underfit. The high accuracy might've been due to the combination of features in the decision tree that could identify a positive/negative patient.
 
 ### Classic Models Business Sales Analysis
-- **Code:** [`sql workbench.mwb`](https://github.com/username/classicmodels-sql-analysis)
+- **Code:** [`sql workbench.mwb`](https://github.com/rifdahsalsabila-git/Sales-BusinessAnalytics/blob/main/sql%20syntax.sql)
 - **Goal:** To design a relational database schema and write SQL queries that answer key business questions about sales performance for a scale-model vehicle retailer.
 - **Skills:** database design (ERD), SQL querying, multi-table joins, aggregation, subqueries.
 - **Tools:** MySQL, MySQL Workbench.
