@@ -24,7 +24,7 @@ In this section I list my data science / machine learning projects, briefly desc
 - **Results:** The model achieved an average test accuracy of 98.3% and recall of 99.4% across 3 random seeds. Platelet count emerged as the dominant predictive feature (67% importance), followed by ALT level and sore throat symptoms. Notable finding: although training accuracy reached 100%, the test accuracy doesn't fall off way too far from train accuracy, meaning the model doesn't overfit/underfit. The high accuracy might've been due to the combination of features in the decision tree that could identify a positive/negative patient.
 
 ### Classic Models Business Sales Analysis
-- **Code:** [`sql workbench.mwb`](https://github.com/rifdahsalsabila-git/Sales-BusinessAnalytics/blob/main/sql%20syntax.sql)
+- **Code:** [`sql syntax.sql`](https://github.com/rifdahsalsabila-git/Sales-Business-Analytics)
 - **Goal:** To design a relational database schema and write SQL queries that answer key business questions about sales performance for a scale-model vehicle retailer.
 - **Skills:** database design (ERD), SQL querying, multi-table joins, aggregation, subqueries.
 - **Tools:** MySQL, MySQL Workbench.
