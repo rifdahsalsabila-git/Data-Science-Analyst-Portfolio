@@ -10,6 +10,8 @@ My CV in Bahasa Indonesia: [Click here](https://github.com/rifdahsalsabila-git/D
     - [Sentiment Analysis: Valko Removal](#sentiment-analysis-valko-removal)
   - SQL
     - [Classic Models Business Sales Analysis](#classic-models-business-sales-analysis)
+  - Excel
+    - [Bank Customer Churn Analysis](#bank-customer-churn-analysis)
 - [Education](#education)
 - [Contact](#contact)
   
@@ -31,6 +33,7 @@ In this section I list my data science / machine learning projects, briefly desc
 - **Library:** Python, PyTorch, HuggingFace Transformers (BERTweet), Pandas, Scikit-learn, Seaborn, Matplotlib, WordCloud.
 - **Description:** The dataset consists of 100 English tweets related to the hashtag #Valko, labeled Positive or Neutral. The project involved EDA (label/language distribution, hashtag & word frequency, wordcloud, emoji analysis), text preprocessing (URL/mention normalization, retweet removal), and fine-tuning BERTweet (a RoBERTa-based model pretrained on Twitter data) for binary sentiment classification, using class weights to handle label imbalance.
 - **Results:** The model achieved 90% test accuracy and a weighted F1-score of 0.90, with strong performance on the Positive class (F1 0.94) and reasonable performance on the smaller Neutral class (F1 0.67, based on only 3 test samples). Given the small dataset size (100 tweets), results are promising but would benefit from more data for stronger generalization.
+  
 ### Classic Models Business Sales Analysis
 - **Code:** [`sql syntax.sql`](https://github.com/rifdahsalsabila-git/Sales-Business-Analytics)
 - **Goal:** To design a relational database schema and write SQL queries that answer key business questions about sales performance for a scale-model vehicle retailer.
@@ -38,10 +41,19 @@ In this section I list my data science / machine learning projects, briefly desc
 - **Tools:** MySQL, MySQL Workbench.
 - **Description:** The classicmodels database consists of 8 related tables covering customers, orders, order details, products, product lines, payments, employees, and offices. After designing the schema in MySQL Workbench, I wrote 14 SQL queries to answer business questions such as total revenue, top-selling products and customers, revenue by country and product line, monthly revenue trends, products that never sold, and each product line's contribution to total revenue.
 - **Results:** The queries surface actionable insights for the business, including which products/customers drive the most revenue, which products are underperforming or unsold, and how revenue trends over time and across regions — the kind of analysis that would typically support inventory and sales strategy decisions.
+
+### Bank Customer Churn Analysis
+
+- **Code:** [`Bank Churn Analysis.xlsx`](https://github.com/rifdahsalsabila-git/Bank-Churn-Analysis-with-Excel)
+- **Goal:** To analyze bank customer churn behaviour and identify customer segments that should be prioritized for retention.
+- **Skills:** data cleaning, data merging, exploratory data analysis, data visualization, dashboard creation, business analysis.
+- **Tools:** Microsoft Excel, XLOOKUP, PivotTable, PivotChart.
+- **Description:** The dataset consists of 9,998 bank customer records from two related datasets containing account and customer information. The datasets were merged using Customer ID with XLOOKUP, followed by duplicate removal and additional feature creation for analysis. An Excel dashboard was then created to answer key questions about customer churn, customer segments, and balance lost due to churn.
+- **Results:** From 9,997 customers after preprocessing, 2,037 customers churned (20.38%), resulting in approximately €185.6 million in lost balance. Germany had the highest churn rate (32.46%), followed by customers with 1 product (27.73%) and non-active members (26.86%). High-value customers had a 23.10% churn rate and accounted for approximately €71.7 million in lost balance, making them an important segment to prioritize for retention.
   
 ## Education
 `University of Indonesia`:
-`Mathemathics`
+`Bachelor in Mathemathics`
 `(2021-2026)`
 
 ## Contact
