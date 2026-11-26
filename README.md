@@ -1,5 +1,5 @@
 # Data-Science-Analyst-Portfolio
-Hi, I'm Rifdah Salsabila! You can call me Rifdah. I'm a fresh mathemathics graduate from University of Indonesia. Currently I have serious interest in Data Analytics and Data Science. I'm also looking for any internship or entry level jobs related to data analytics/data science. This repository showcases my data science and machine learning projects, tracking my progress and skills in the field.
+Hi, I'm Rifdah Salsabila! You can call me Rifdah. I'm a fresh mathematics graduate from University of Indonesia. Currently I have serious interest in Data Analytics and Data Science. I'm also looking for any internship or entry level jobs related to data analytics/data science. This repository showcases my data science and machine learning projects, tracking my progress and skills in the field.
 
 My CV in Bahasa Indonesia: [Click here](https://github.com/rifdahsalsabila-git/Data-Science-Analyst-Portfolio/blob/main/CV_Rifdah%20Salsabila.pdf)
 
@@ -8,7 +8,7 @@ My CV in Bahasa Indonesia: [Click here](https://github.com/rifdahsalsabila-git/D
   - Python
     - [Mpox Classification](#mpox-classification)
     - [Sentiment Analysis: Valko Removal](#sentiment-analysis-valko-removal)
-  - SQL
+  - SQL & Power BI
     - [Classic Models Business Sales Analysis](#classic-models-business-sales-analysis)
   - Excel
     - [Bank Customer Churn Analysis](#bank-customer-churn-analysis)
@@ -35,12 +35,12 @@ In this section I list my data science / machine learning projects, briefly desc
 - **Results:** The model achieved 90% test accuracy and a weighted F1-score of 0.90, with strong performance on the Positive class (F1 0.94) and reasonable performance on the smaller Neutral class (F1 0.67, based on only 3 test samples). Given the small dataset size (100 tweets), results are promising but would benefit from more data for stronger generalization.
   
 ### Classic Models Business Sales Analysis
-- **Code:** [`sql syntax.sql`](https://github.com/rifdahsalsabila-git/Sales-Business-Analytics)
-- **Goal:** To design a relational database schema and write SQL queries that answer key business questions about sales performance for a scale-model vehicle retailer.
-- **Skills:** database design (ERD), SQL querying, multi-table joins, aggregation, subqueries.
-- **Tools:** MySQL, MySQL Workbench.
-- **Description:** The classicmodels database consists of 8 related tables covering customers, orders, order details, products, product lines, payments, employees, and offices. After designing the schema in MySQL Workbench, I wrote 14 SQL queries to answer business questions such as total revenue, top-selling products and customers, revenue by country and product line, monthly revenue trends, products that never sold, and each product line's contribution to total revenue.
-- **Results:** The queries surface actionable insights for the business, including which products/customers drive the most revenue, which products are underperforming or unsold, and how revenue trends over time and across regions — the kind of analysis that would typically support inventory and sales strategy decisions.
+- **Code:** [`ECOMMERCE_DASHBOARD.sql`](https://github.com/rifdahsalsabila-git/Sales-Business-Analytics) and [`ECOMMERCE_DASHBOARD.pbix`](https://github.com/rifdahsalsabila-git/Sales-Business-Analytics)
+- **Goal:** To prepare and explore the sales data of a scale-model vehicle retailer using SQL, then build a Power BI dashboard that helps management monitor sales performance and cancellation risk.
+- **Skills:** data preprocessing (missing values, duplicates, orphan records, outliers), exploratory data analysis, multi-table joins, SQL views, data validation, DAX measures, dashboard design, data storytelling.
+- **Tools:** MySQL, MySQL Workbench, Power BI.
+- **Description:** The classicmodels database consists of 8 related tables covering customers, orders, order details, products, product lines, payments, employees, and offices. In SQL, I first ran data quality checks (missing values, duplicates, text consistency, and price outliers), then wrote 21 queries to explore revenue, profit, products, customers, countries, monthly trends, sales reps, order status, cancellations, and shipping performance. The data was then combined into a single view (`vw_sales`) at order-line level and validated against the raw tables. In Power BI, I built a 2-page dashboard: an **Overview** page (KPI cards, sales/profit trend, sales by product line, profit by country, top customers, top sales reps) and an **Insights** page (cancelled value, cancel rate, revenue at risk, order status, cancellations by product line, plus dynamic key insights and a recommendation).
+- **Results:** The dataset holds about $9.60M in sales and $3.83M in profit. Around 2% of orders have no shipped date, which turned out to be unshipped orders rather than data errors, so they were kept. Cancelled orders account for about $238.85K, or 2.49% of total sales, and Classic Cars is both the largest product line and the biggest source of cancelled value. Orders still On Hold, In Process, or Disputed represent additional revenue at risk. The dashboard gives management a quick view of what drives revenue and where to follow up, supporting decisions on inventory, key accounts, and order handling.
 
 ### Bank Customer Churn Analysis
 
@@ -53,7 +53,7 @@ In this section I list my data science / machine learning projects, briefly desc
   
 ## Education
 `University of Indonesia`:
-`Bachelor in Mathemathics`
+`Bachelor in Mathematics`
 `(2021-2026)`
 
 ## Contact
